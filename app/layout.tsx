@@ -25,7 +25,7 @@ export default function RootLayout({
           <Sidebar className="mt-[65px] hidden md:block" />
           <main
             className={
-              'min-w-screen mt-[65px] flex min-h-[calc(100vh-120px)] flex-col gap-2 lg:gap-6'
+              'min-w-screen mt-[65px] flex min-h-[calc(100vh-120px)] flex-col gap-4 lg:gap-6'
             }
           >
             {children}
